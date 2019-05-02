@@ -1,4 +1,5 @@
 # Portfolio
+My name is Quan Le, and 
 
 ## Projects
 <hr>
