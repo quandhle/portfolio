@@ -1,4 +1,4 @@
-Projects
+<strong>Projects</strong>
 <hr>
 MysterTravel
 Codenames
