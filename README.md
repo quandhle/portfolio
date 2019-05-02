@@ -1,4 +1,6 @@
-<strong>Projects</strong>
+# Portfolio
+
+## Projects
 <hr>
 MysterTravel
 Codenames
