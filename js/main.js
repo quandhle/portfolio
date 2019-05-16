@@ -12,7 +12,6 @@ $(function () {
 	});
 });
 
-
 /* Preloader */
 var win = $(window);
 win.on('load', function () {
@@ -26,7 +25,6 @@ $('.main-menu nav ul').onePageNav({
 	scrollOffset: top_offset,
 });
 
-
 // sticky
 	var wind = $(window);
 	var sticky = $('#sticky-header');
@@ -39,7 +37,6 @@ $('.main-menu nav ul').onePageNav({
 	}
 });
 
-
 // menu toggle
 $(".navbar-toggle").on('click', function () {
 	$(".navbar-nav").addClass("mobile_menu");
@@ -47,8 +44,6 @@ $(".navbar-toggle").on('click', function () {
 $(".navbar-nav li a").on('click', function () {
 	$(".navbar-collapse").removeClass("show");
 });
-
-
 
 // mainSlider
 function mainSlider() {
@@ -92,7 +87,6 @@ function mainSlider() {
 }
 mainSlider();
 
-
 // insurance - pro
 	$('.app-active').slick({
 	slidesToShow: 5,
@@ -134,42 +128,6 @@ mainSlider();
 	]
 });
 
-// testimonial
-$('.testimonial-active').slick({
-	slidesToShow: 1,
-	slidesToScroll: 1,
-	arrows: true,
-	prevArrow: '<button type="button" class="slick-prev"><i class="ti-shift-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="ti-shift-right"></i></button>',
-	fade: true,
-	asNavFor: '.testimonial-nav',
-	responsive: [
-		{
-			breakpoint: 768,
-			settings: {
-				arrows: false
-			}
-		},
-		{
-			breakpoint: 560,
-			settings: {
-				arrows: false
-			}
-		}
-	]
-});
-$('.testimonial-nav').slick({
-	slidesToShow: 3,
-	slidesToScroll: 1,
-	asNavFor: '.testimonial-active',
-	dots: false,
-	arrows: false,
-	centerMode: true,
-	focusOnSelect: true,
-	centerPadding: 0
-});
-
-
 // owlCarousel
 $('.owl-carousel').owlCarousel({
     loop:true,
@@ -190,7 +148,6 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-
 
 /* magnificPopup img view */
 $('.popup-image').magnificPopup({
@@ -248,9 +205,6 @@ $('.portfolio-area').imagesLoaded(function () {
 
 });
 
-
-
-
 // scrollToTop
 $.scrollUp({
 	scrollName: 'scrollUp', // Element ID
@@ -259,7 +213,7 @@ $.scrollUp({
 	animation: 'fade', // Fade, slide, none
 	animationInSpeed: 200, // Animation in speed (ms)
 	animationOutSpeed: 200, // Animation out speed (ms)
-	scrollText: '<i class="ti-rocket"></i>', // Text for element
+	scrollText: '<i class="fas fa-chevron-up"></i>', // Text for element
 	activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 });
 
