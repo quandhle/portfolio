@@ -938,7 +938,8 @@ label {
 
 .project-media {
 	min-height:300px;
-	background-size:cover;
+	max-width: 500px;
+	background-size: cover;
 }
 
 .project-media img {
