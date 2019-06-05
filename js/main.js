@@ -1,7 +1,6 @@
 (function ($) {
 "use strict";
 
-
 $(function () {
 	$('a.smoth-scroll').on('click', function (event) {
 		var $anchor = $(this);
@@ -259,8 +258,6 @@ if ($('#contact-map').length != 0) {
 	google.maps.event.addDomListener(window, 'load', basicmap);
 }
 
-
-
-
-
 })(jQuery);
+
+$('#contact-form').on('click', )
