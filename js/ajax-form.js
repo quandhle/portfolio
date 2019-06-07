@@ -1,5 +1,5 @@
 $(function() {
-	// Get the form.
+	// Get the form.	
 	var form = $('#contact-form');
 
 	// Get the messages div.
@@ -28,7 +28,10 @@ $(function() {
 			$(formMessages).text(response);
 
 			// Clear the form.
-			$('#contact-form input,#contact-form textarea').val('');
+
+			if (response === 'Message has been sent') {
+				$('#contact-form input,#contact-form textarea').val('');
+			}  
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.
@@ -41,6 +44,6 @@ $(function() {
 			} else {
 				$(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
-		});
+		})
 	});
 });

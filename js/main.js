@@ -259,8 +259,3 @@ if ($('#contact-map').length != 0) {
 }
 
 })(jQuery);
-
-$('form').submit((event) => {
-	debugger;
-	event.preventDefault();
-});
