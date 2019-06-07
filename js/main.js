@@ -260,4 +260,7 @@ if ($('#contact-map').length != 0) {
 
 })(jQuery);
 
-$('#contact-form').on('click', )
+$('form').submit((event) => {
+	debugger;
+	event.preventDefault();
+});
