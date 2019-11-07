@@ -320,20 +320,20 @@ label {
 
 .skills {
 	display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
 .skill-icon {
-		width: 12%;
-		margin: 2% 5%;
+	width: 12%;
+	margin: 2% 5%;
 }
 
 .skill-icon > p {
-		text-align: center;
-		margin: auto;
+	text-align: center;
+	margin: auto;
 }
 
 /* 2. header */
