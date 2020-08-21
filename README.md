@@ -1,6 +1,6 @@
 
 # Portfolio
-My name is Quan Le, and 
+My name is Quan Le, and I like to program!
 
 ## Projects
 Myster Travel
